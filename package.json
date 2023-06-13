@@ -1,6 +1,6 @@
 {
   "name": "htk.js",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "type": "module",
   "exports": {
     ".": {
@@ -15,7 +15,6 @@
   "author": "Hacktoolkit <hello@hacktoolkit.>",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "node-fetch": "^3.3.1"
   }
