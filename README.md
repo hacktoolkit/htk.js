@@ -12,14 +12,23 @@ A set of convenience utils for JavaScript. An inspired, close-to-feature-parity 
 
 ## Installation
 
-1. Install via npm: `npm install htk`
+1. Install via npm: `npm install htk.js`
+1. For `slackDebug`, create a `.env` file and add your [Slack incoming webhook](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks) as `SLACK_WEBHOOK_URL`.
 
 ## FDebug (FDB)
 
 1. (**Recommended**) Create a BASH alias or similar: `alias fdb='touch /tmp/fdebug.log; tail -f /tmp/fdebug.log'`
     1. In a separate window used for debugging, run `fdb` to watch the logs roll in.
-1. `import { fdb } from 'htk';`
+1. `import { fdb } from 'htk.js/fdebug';`
 1. `fdb('Not all heroes wear capes')`
+
+## Slack Debug (`slack_debug`)
+
+```
+import { slackDebug } from 'htk.js/';
+
+slackDebug('Not all heroes wear capes');
+```
 
 # See Also
 
