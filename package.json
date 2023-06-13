@@ -1,6 +1,6 @@
 {
   "name": "htk.js",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "type": "module",
   "exports": {
     ".": {
@@ -8,14 +8,10 @@
     },
     "./fdebug": "./lib/fdebug.js"
   },
-  "bin": {
-    "localhost-debug-server": "./lib/localhost_debug_server.js"
-  },
   "repository": "git@github.com:hacktoolkit/htk.js.git",
   "author": "Hacktoolkit <hello@hacktoolkit.>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
     "node-fetch": "^3.3.1"
   }
 }
