@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/package-name.svg)](//npmjs.com/package/htk.js)
+
 # htk.js
 
 A set of convenience utils for JavaScript. An inspired, close-to-feature-parity port of [`python-htk-lite`](https://github.com/hacktoolkit/python-htk-lite).
